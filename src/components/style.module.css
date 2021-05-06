@@ -1,0 +1,164 @@
+/* ==============nav bar starts===================== */
+.navBar {
+  background: #181818;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBar nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navBar nav ul li {
+  display: inline-block;
+  margin: 20px;
+}
+.navBar nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navBar a:hover {
+  border-bottom: 5px solid steelblue;
+}
+/* --------------nav bar style========================= */
+
+/* ==============Home starts============================ */
+.home {
+  /* background: rgb(0, 124, 128); */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.808) 0%,
+    rgba(151, 120, 120, 0.748) 33%,
+    rgba(64, 114, 124, 0.568) 100%
+  );
+  height: 90vh;
+  padding-top: 90px;
+  position: relative;
+}
+.home .homeContainer {
+  color: rgb(47, 47, 47);
+  margin: auto;
+  position: relative;
+}
+.home .homeContainer h1 {
+  margin: auto;
+}
+.home .homeContainer p {
+  margin: auto;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.home .homeImg {
+  height: 70%;
+  width: 100%;
+}
+/* ==============Home ends============================ */
+
+/* ==============PageHeader starts============================ */
+.pageHeader .pageHeaderContainer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.pageHeader .pageHeaderContainer hr {
+  position: absolute;
+  left: 0;
+  width: 124px;
+  border: 1px solid purple;
+}
+.pageHeader .pageHeaderContainer h1 {
+  color: white;
+}
+/* ==============PageHeader ends============================ */
+/*===============About starts=========================*/
+.about {
+  background: black;
+  padding-bottom: 5%;
+}
+.about .aboutContainer {
+  display: flex;
+}
+.about .aboutContainer .aboutText {
+  width: 47%;
+  margin-left: 3%;
+}
+.about .aboutContainer .aboutText h2 {
+  font-weight: 900;
+  font-size: 46px;
+}
+.about .aboutContainer .aboutPhoto {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+.about .aboutContainer .aboutPhoto .myPhoto {
+  height: 400px;
+  border-radius: 15%;
+}
+/*===============About ends=========================*/
+/*===============Skills Starts=========================*/
+.skills {
+  background: darkslategrey;
+}
+.skills p {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.skills .skillsContainer {
+  padding-top: 50px;
+  display: flex;
+}
+.skills .skillsContainer .skillsImg {
+  height: 400px;
+  width: 50%;
+}
+.skills .skillsContainer ul {
+  margin-top: 70px;
+  color: white;
+  list-style-type: none;
+  padding: 0;
+
+  text-align: center;
+  justify-content: center;
+}
+.skills .skillsContainer ul li {
+  display: inline-block;
+  padding: 20px;
+  font-weight: bold;
+  border: 2px solid gray;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-bottom: 50px;
+}
+.skills .skillsContainer ul :hover {
+  color: violet;
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: no-drop;
+}
+/*===============Skills ends=========================*/
+
+.contact {
+  background: slateblue;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+.contact .contactIcons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contact .contactIcons svg path {
+  cursor: pointer;
+}
