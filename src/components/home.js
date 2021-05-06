@@ -8,7 +8,7 @@ const Home = () => {
         <h1 className={styles.homeHello}> Hello</h1>
         <p>Welcome to my Personal Website</p>
       </div>
-      <img className={styles.homeImg} src={thinking} />
+      <img className={styles.homeImg} src={thinking} alt="HomePic" />
     </div>
   );
 };
