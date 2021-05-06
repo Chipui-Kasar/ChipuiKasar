@@ -48,7 +48,7 @@ const Skills = () => {
         through to final testing.
       </p>
       <div className={styles.skillsContainer}>
-        <img className={styles.skillsImg} src={developer} alt="Skills" />
+        <image className={styles.skillsImg} src={developer} />
         {totalSkills.map(skills => {
           return <div className={styles.skillLists}>{skills}</div>;
         })}
