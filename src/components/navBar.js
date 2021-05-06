@@ -1,5 +1,5 @@
 import styles from "./style.module.css";
-import About from "./about";
+
 const NavBar = () => {
   return (
     <div className={styles.navBar}>
