@@ -13,22 +13,23 @@ html {
 
 h1 {
   font-weight: 900;
-  font-size: calc(1rem +3vw);
+  font-size: calc(1.5rem + 1vw);
   color: white;
 }
 h2 {
   font-weight: 700;
-  font-size: calc(1rem +1.5vw);
+  font-size: calc(1.4rem + 0.6vw);
   color: white;
 }
 p {
-  font-weight: 500;
-  font-size: calc(0.75rem +1vw);
+  text-align: justify;
+  font-size: calc(0.7rem + 0.9vw);
   color: white;
+  font-style: italic;
 }
 a {
   font-weight: 500;
-  font-size: calc(0.6rem +1vw);
+  font-size: calc(0.8rem + 0.9vw);
   color: white;
   text-align: center;
 }

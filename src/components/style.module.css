@@ -86,6 +86,7 @@
 /* ==============PageHeader ends============================ */
 /*===============About starts=========================*/
 .about {
+  padding-top: 70px;
   background: black;
   padding-bottom: 5%;
 }
@@ -96,6 +97,7 @@
   width: 47%;
   margin-left: 3%;
 }
+
 .about .aboutContainer .aboutText h2 {
   font-weight: 900;
 }
@@ -113,6 +115,7 @@
 /*===============About ends=========================*/
 /*===============Skills Starts=========================*/
 .skills {
+  padding-top: 70px;
   background: darkslategrey;
 }
 .skills p {
@@ -120,12 +123,12 @@
   padding-right: 40px;
 }
 .skills .skillsContainer {
-  padding-top: 50px;
+  padding-top: 1%;
   display: flex;
 }
 .skills .skillsContainer .skillsImg {
   height: 400px;
-  width: 50%;
+  width: 60%;
 }
 .skills .skillsContainer ul {
   margin-top: 70px;
@@ -137,7 +140,7 @@
 }
 .skills .skillsContainer ul li {
   display: inline-block;
-  padding: 20px;
+  padding: 2%;
   font-weight: bold;
   border: 2px solid gray;
   padding-right: 30px;
@@ -145,6 +148,7 @@
   margin-bottom: 50px;
 }
 .skills .skillsContainer ul :hover {
+  background-color: wheat;
   color: violet;
   border: 2px solid black;
   border-radius: 20px;
@@ -155,7 +159,7 @@
 .contact {
   background: slateblue;
   height: 300px;
-  display: flex;
+  text-align: center;
   align-items: center;
 }
 .contact .contactIcons {

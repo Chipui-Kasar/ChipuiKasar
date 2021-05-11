@@ -41,12 +41,12 @@ const Skills = () => {
     <div className={styles.skills} id="skills">
       <PageHeader title={"What about My skills?"} />
       <p>
-        React. ... js Developers design and implement user interface components
-        for JavaScript-based web and mobile applications using the React
-        open-source library ecosystem. These skilled front-end developers are
-        involved in all stages of interface component design, from conception
-        through to final testing.
+        I have done 4 months of Ui development training with Framework (Angular
+        7 & 8) from InfoCampus, Marathahalli, Bangalore. <br />
+        Using Angular 7 & 8 there I have created how to handle a website by the
+        HR. But I really don't like Angular, so I choose ReactJS
       </p>
+      <p>I really like ReactJs, I will play with it like a girlfriend</p>
       <div className={styles.skillsContainer}>
         <img className={styles.skillsImg} src={developer} alt="SkillsPic" />
         {totalSkills.map(skills => {
