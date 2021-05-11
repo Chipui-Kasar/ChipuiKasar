@@ -1,6 +1,8 @@
 import styles from "./style.module.css";
 import PageHeader from "./pageHeader";
 import developer from "../images/developer.svg";
+import resume from "../images/Resume.png";
+import { FaDownload } from "react-icons/fa";
 
 const frontendSkills = (
   <ul>
@@ -47,6 +49,9 @@ const Skills = () => {
         HR. But I really don't like Angular, so I choose ReactJS
       </p>
       <p>I really like ReactJs, I will play with it like a girlfriend</p>
+      <button src={resume}>
+        <FaDownload /> Resume
+      </button>
       <div className={styles.skillsContainer}>
         <img className={styles.skillsImg} src={developer} alt="SkillsPic" />
         {totalSkills.map(skills => {
