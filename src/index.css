@@ -23,7 +23,7 @@ h2 {
 }
 p {
   text-align: justify;
-  font-size: calc(0.9rem + 0.8vw);
+  font-size: calc(0.7rem + 1vw);
   color: white;
   font-style: italic;
 }
