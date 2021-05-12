@@ -1,7 +1,7 @@
 import styles from "./style.module.css";
 import PageHeader from "./pageHeader";
 import myPic from "../images/myPic.jpg";
-import { FaLaptopCode, FaThinkPeaks } from "react-icons/fa";
+import { FaLaptopCode } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -35,7 +35,11 @@ const About = () => {
               <br />
               <div>
                 Click{" "}
-                <a href="https://www.instagram.com/_laedoo__/" target="_blank">
+                <a
+                  href="https://www.instagram.com/_laedoo__/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   here
                 </a>{" "}
                 to see her pics
