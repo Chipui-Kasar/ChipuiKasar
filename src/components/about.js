@@ -29,7 +29,7 @@ const About = () => {
               <br />
               "As You Sow, So Shall You Reap"
             </p>
-            <p>
+            {/* <p>
               I have a Crush and she is one in a million. Wanna know her? If you
               happen to know her please don't tell her about this. Thank You
               <br />
@@ -44,7 +44,7 @@ const About = () => {
                 </a>{" "}
                 to see her pics
               </div>
-            </p>
+            </p> */}
           </div>
           <div className={styles.aboutPhoto}>
             <img className={styles.myPhoto} src={myPic} alt="MyPhoto" />
